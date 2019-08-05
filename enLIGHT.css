@@ -1,3 +1,7 @@
+.offerCards{
+    box-shadow: 2px 2px 15px #f1f1f1;
+}
+
 .acceleratorText{
     padding-bottom: 143px;
     color: lightgrey;
@@ -63,7 +67,7 @@
 }
 
 .navbar-nav{
-    margin-left: -650px;
+    margin-left: -500px;
 }
 
 .nav-link{
