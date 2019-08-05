@@ -32,12 +32,24 @@
 
         }
     </script>
+      
+    <script>
+     $(function() {
+            $(".active").hover(function() {
+              $(this).attr("src","ani-logo_2.gif");
+            },function() {
+              $(this).attr('src','https://i2.wp.com/enlightme.ca/wp-content/uploads/2016/08/enlight-logo-full.png?zoom=2&fit=800%2C266&ssl=1');
+            }
+        });
+
+    </script>
+
   </head>
     
     
   <body>
         <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
-          <a class="navbar-brand" href="#"><img src="https://i2.wp.com/enlightme.ca/wp-content/uploads/2016/08/enlight-logo-full.png?zoom=2&fit=800%2C266&ssl=1" width="20%;"> </a>
+          <a class="navbar-brand" href="#"><img class="active" src="https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif" onmouseenter="this.src ='https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif';" width="15%;"> </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -86,6 +98,8 @@
                             <li></li>
                     </ul>
         </div >
+      
+
       
 
       <div class="container-fluid mb-5 whatWeOffer">
@@ -147,10 +161,13 @@
                 </div>
 
             </div>
+      </div>
+      </div>
+      
 
-    
-      </div>
-      </div>
+
+      
+      <img src="https://enlightme.ca/wp-content/uploads/2019/08/Waver2.png" width="100%">
 
 
     <!-- Optional JavaScript -->
@@ -158,5 +175,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>
