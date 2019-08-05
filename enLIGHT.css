@@ -8,7 +8,7 @@
 }
 
 .offeringCards{
-    margin-left: 23%;
+    margin-left: 24%;
 }
 
 .container{
@@ -16,7 +16,7 @@
 }
 
 .offerCards:hover{
-    border: 1.5px solid #33cb33;
+    border: 1px solid #33cb33;
 }
 
 .cardLinks{
@@ -63,7 +63,7 @@
 }
 
 .navbar-nav{
-    margin-left: -150px;
+    margin-left: -500px;
 }
 
 .nav-link{
