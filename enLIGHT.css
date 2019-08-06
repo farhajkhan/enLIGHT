@@ -1,3 +1,85 @@
+.contexual{
+    position: absolute;
+    padding-top: 20px
+}
+
+.svgzzz{
+}
+
+.carousel-logooo{
+
+}
+
+
+@media (min-width: 1200px){
+.container {
+    max-width: 2000px !important;
+}
+}
+
+.w-100 {
+    width: 200% !important;
+}
+
+.logo-carousel{
+    padding-top: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(16.667%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-16.667%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+
+.btn-outline-success{
+    border-color: #33cb33 !important;
+    color: #33cb33;
+}
+
+
+.btn-outline-success:hover{
+    background-color: #33cb33;
+}
+
+.missionTitle{
+    color: #333333;
+}
+
+a:hover{
+    color: #2da22d;
+}
+
 .logo{
     width: 200px;
 }
@@ -31,9 +113,6 @@
     padding-bottom: 46px;
 }
 
-.offeringCards{
-    margin-left: 24%;
-}
 
 .container{
     
