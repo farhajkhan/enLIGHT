@@ -6,8 +6,13 @@
     line-height: 30px;
 }
 
-#socialLinks ul li:hover{
+#socialLinks a:hover{
     color: #2da22d;
+}
+
+
+#socialLinks a{
+    color: white;
 }
 
 #socialLinks ul li{
