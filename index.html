@@ -2,70 +2,77 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
       
-    <link rel="stylesheet" type="text/css" href="enLIGHT.css">
-
-    <title>enLIGHT</title>
+      <link rel="stylesheet" type="text/css" href="enLIGHT.css">
       
-    <script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+      <title>enLIGHT</title>
+      
+      <script>
         var example = ['LEADERS', 'FOUNDERS', 'TRAILBLAZERS', 'VISIONARIES', 'DISRUPTORS', 'ROLE MODELS'];
-
         textSequence(0);
         function textSequence(i) {
-
             if (example.length > i) {
                 setTimeout(function() {
                     document.getElementById("sequence").innerHTML = example[i];
                     textSequence(++i);
                 }, 1000); // 1 second (in milliseconds)
-
             } else if (example.length == i) { // Loop
                 textSequence(0);
             }
-
         }
-    </script>
+      </script>
 
-  </head>
+
+    </head>
     
     
-  <body>
-        <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
-          <a class="navbar-brand" href="#"><img class="active" src="https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif" onmouseenter="this.src ='https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif';" width="15%;"> </a>
+    <body>
+        <nav class="navbar navbar-default navbar-expand-sm fixed-top bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif" onmouseenter="this.src ='https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif';" width="200px;">
+        
+            </a>
+            
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+              <span class="custom-toggler navbar-toggler-icon">   
+              </span>
           </button>
+            
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
 <!--              <li class="nav-item active">-->
-                <a class="nav-link" href="#">About</a>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Foundery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-               <li style="padding-left: 20px; margin-top:2px;">
-                   <button type="button" class="btn btn-outline-light">Apply Now</button>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Foundery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item" style="padding-left: 20px; margin-top:2px;">
+                    <button type="button" class="btn btn-outline-light">Apply Now</button>
                </li>
             </ul>
           </div>
         </nav>
       
-   <div class="context">
-       <h1>Creating Tomorrow's</h1>
-       <h1 id="sequence" style="font-family: Roboto; font-weight: 700; font-size: 90px;">INNOVATORS</h1>
-    </div>      
+        <div class="context">
+           <h1>Creating Tomorrow's</h1>
+           <h1 id="sequence" style="font-family: Roboto; font-weight: 700; font-size: 90px;">INNOVATORS</h1>
+        </div>      
 
         <div class="area" >
                     <ul class="circles">
@@ -154,18 +161,46 @@
       </div>
       
 
+      <img src="https://enlightme.ca/wp-content/uploads/2019/08/Waver2.png" width="100%">
+       
 
-      
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h1>Our Mission</h1>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <p>To help develop high potential student entrepreneurs, expand and support the local student<br> entrepreneurship ecosystem, and accelerate student-run startups. </p>
+                </div>
+            </div>
+
+        </div>
+
+        
+        
       <img src="https://enlightme.ca/wp-content/uploads/2019/08/Waver2.png" width="100%">
 
-
-    <!-- Optional JavaScript -->
+   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+
+        
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-      <script type="text/javascript" src="slick/slick.min.js"></script>
+
+        <script>
+         $(window).scroll(function(){
+         $('nav').toggleClass('scrolled', $(this).scrollTop() > 700);
+         });
+
+        </script>
+        
+        <script>
+            $(window).scroll(function(){
+                $('.logo').css({width: $(this).scrollTop() > 700? "150px":"200px"});
+            });
+        </script>
+        
   </body>
 </html>
