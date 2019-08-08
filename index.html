@@ -485,21 +485,20 @@
 
    <!-- Optional JavaScript -->
       
- <script>
-        $(window).scroll(function(){
-            $('.count').each(function () {
+<script>
+    $('.count').each(function () {
         $(this).prop('Counter',0).animate({
             Counter: $(this).text()
         }, {
             duration: 2000,
             easing: 'swing',
             step: function (now) {
-                $(this).text(Math.round( now * 10 ) / 10);
+                $(this).text(commaSeparateNumber(Math.round( now * 10 ) / 10));
             }
         });
     });
-}); 
-    </script>
+        
+        </script>
         
     <script>
     $('.count2').each(function () {
