@@ -294,7 +294,63 @@
                 </div>
 
         </div>
-        
+ 
+
+<div class="statistics">
+            <div class="svgzzzz d-none d-md-block" style="max-width: 100%; overflow: hidden;">
+                <div style="height: 350px; width: 270%; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path transform="scale(-1, 1) translate(-200, 0)" d="M-11.00,-3.45 C128.38,147.53 334.36,-86.34 502.54,38.97 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #58dc58;"></path></svg></div>
+                <div style="height: 150px; width: 250%; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path transform="scale(-1, 1) translate(-200, 0)" d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #58dc58;"></path></svg></div> 
+            </div>
+      <div class="d-flex">
+      <div class="container counter">
+          <div class="row d-flex justify-content-around">
+              <div class="col-3.5 statPart">
+                  <div class="row align-self-start">
+                      <div class="col-8 statIntro">
+                          <p>Our Startups have gone on to raise:</p>
+                      </div>
+                  </div>
+                  
+                  <div class="row align-self-end">
+                      <div class="col-12 statNum">
+                          <p class="statCount">$<span class="count">7.4</span> <span class="metric">million</span></p>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-3.5 statPart">
+                  <div class="row">
+                      <div class="col-8 statIntro">
+                          <p>Our Startups have generated: </p>
+                      </div>
+                  </div>
+                  
+                  <div class="row align-self-end">
+                      <div class="col-12 statNum">
+                           <p class="statCount"><span class="count3" >116</span><span class="metric"> jobs</span></p>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-3.5 statPart">
+                  <div class="row">
+                      <div class="col-8 statIntro">
+                          <p><span style="opacity: 0;">.</span><br>Our network has:</p>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col-12 statNum">
+                           <p class="statCount"><span class="count2" >1752</span><span class="metric">  people</span></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+      </div>
+      </div>
+</div>
 
         <div class=" partnerCTA mt-5 d-flex align-items-center">
             <div class="row d-flex justify-content-center" style="width: 1597px;">
@@ -427,6 +483,64 @@
         
 
    <!-- Optional JavaScript -->
+      
+ <script>
+        $(window).scroll(function(){
+            $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.round( now * 10 ) / 10);
+            }
+        });
+    });
+}); 
+    </script>
+        
+    <script>
+    $('.count2').each(function () {
+        $(this).prop('Counter',1000).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.floor(now)));
+            }
+        });
+    });
+        
+   function commaSeparateNumber(val) {
+      while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+      }
+      return val;
+    } 
+    </script>
+        
+    <script>
+    $('.count3').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.floor(now)));
+            }
+        });
+    });
+        
+   function commaSeparateNumber(val) {
+      while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+      }
+      return val;
+    } 
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         
 
