@@ -22,7 +22,9 @@
 
 
 
-
+.speakerIcons:hover{
+    transform: scale(1.1,1.1);
+}
 
 
 .statistics{
@@ -250,7 +252,7 @@ a:hover{
 }
 
 .acceleratorText{
-    padding-bottom: 143px;
+    padding-bottom: 120px;
     color: lightgrey;
 }
 
