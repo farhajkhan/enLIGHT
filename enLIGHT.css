@@ -378,7 +378,8 @@ a:hover{
 }
 
 .firstTitle{
-    font-family: Avenir-Black;
+    font-family: Roboto;
+    font-weight: 600;
     color: #404040
 }
 
