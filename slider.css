@@ -1,0 +1,93 @@
+.definitions{
+    margin-left: -60px;
+    margin-top: 12px;
+}
+
+.w3-content{
+    max-width: none!important;
+}
+
+.container.sliderDef{
+    width: 100% !important;
+    max-width: none!important;
+    margin: 0px !important; 
+    padding: 0;
+}
+
+.container.slideContent{
+    width: 100% !important;
+    max-width: none!important;
+    margin: 0px;
+}
+
+.subName{
+    color: white;  
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Open Sans';
+    margin-top: -15px;
+    text-align: right;
+    transform: translateX(-95px);
+}
+
+.dictionaryDefinition{
+    color: white;  
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Open Sans';
+}
+
+.dictionaryWord{
+    color: white; 
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.enLIGHTName{
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.w3-display-container{
+    width: 100%;
+}
+
+.fas.fa-chevron-left{
+    color: white;
+}
+
+.fas.fa-chevron-right{
+    color: white;
+}
+
+.fas.fa-chevron-left:hover{
+    color: #f1f1f1 !important;
+    
+}
+
+.fas.fa-chevron-right:hover{
+    color: #f1f1f1 !important;
+}
+
+.w3-button.w3-display-left{
+    background-color: #3ed033 !important;
+}
+
+.w3-button.w3-display-right{
+    background-color: #3ed033 !important;
+}
+
+
+.slide2{
+    background-color: #3ed033;
+    height: 160px;
+        width: 100% !important;
+}
+
+.slide1{
+    width: 100% !important;
+    background-color: #3ed033;
+    height: 160px;
+
+}

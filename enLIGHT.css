@@ -1,4 +1,88 @@
-          .statCount{
+.jayZ{
+    font-size: 14px !important;
+    font-weight: 200;
+}
+
+.Lyrics{
+    margin-top: 150px !important;
+    background-color: #5fe058;
+    color: white;
+    height: 200px;
+    font-weight: 600;
+}
+
+.quoteLyrics{
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+#missionPic{
+    border-radius: 20px;
+}
+
+.missionText{
+    font-size: 14px;
+    font-weight: 200;
+    color: grey;
+}
+
+.aboutUsPageContent{
+    margin-bottom: 20px;
+}
+
+.missionHeader{
+    margin-top: 0px;
+}
+
+.parallax{
+    background-image: url("teamPic.JPG");
+    background-attachment: fixed;
+    background-position: 0px 0px; 
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    min-height: 500px; 
+}
+
+.aboutUsContext {
+    width: 100%;
+    position: absolute;
+    top:35vh;
+    letter-spacing: 2px;
+    
+}
+
+.aboutUsContext h1{
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.aboutUsSubTitle{
+    color: white;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.aboutUsSubTitle p{
+    text-align: center;
+    font-weight: 200;
+}
+
+.teamBannerPic{
+    position: relative;
+}
+
+.nav-link.activated{
+    color: #33cb33 !important; 
+}
+
+
+header{
+
+}
+
+.statCount{
               margin-top: 25px;
               border-bottom: 8px solid white; 
               line-height: 60px;
