@@ -1,8 +1,37 @@
+.movingNathan{
+    width: 269px;
+    height:269px;
+    background: transparent url(http://giphygifs.s3.amazonaws.com/media/Ic97mPViHEG5O/giphy.gif) -140px 0px no-repeat;
+      background-size: 650px 269px;
+}
+
+.movingMaxwell{
+    width: 269px;
+    height:269px;
+    background: transparent url(https://media.giphy.com/media/sgswHaZw5yklq/giphy.gif) 0px -40px no-repeat;
+      background-size: 269px 370px;
+}
+
+.movingRachael{
+    width: 269px;
+    height:269px;
+    background: transparent url(http://giphygifs.s3.amazonaws.com/media/RWtytw1cRmstG/giphy.gif) -40px 0px no-repeat;
+      background-size: 350px 269px;
+}
+
+.movingSara{
+    width: 269px;
+    height:269px;
+    background: transparent url(https://media.giphy.com/media/2ysWSWJuh79CBm5Acd/giphy.gif) -100px 0px no-repeat;
+      background-size: 450px 269px;
+}
+
+
 .movingZoe{
     width: 269px;
     height:269px;
-    background: transparent url(https://media.giphy.com/media/ZdFxoPhIS4glG/giphy.gif) 0px 0px no-repeat;
-      background-size: 400px 269px;
+    background: transparent url(https://media.giphy.com/media/ckrSh4aCni6dj1vwSe/giphy.gif) -40px 0px no-repeat;
+      background-size: 350px 269px;
 }
 
 

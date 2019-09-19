@@ -1,3 +1,7 @@
+.nav-link.activated.scrolledText{
+    color: white !important;
+}
+
 .jayZ{
     font-size: 14px !important;
     font-weight: 200;
@@ -78,6 +82,7 @@
 .nav-link.activated{
     color: #33cb33 !important; 
 }
+
 
 
 header{
@@ -321,8 +326,11 @@ a:hover{
     background: transparent !important;
 }
 
+
+
 .bg-dark.scrolled{
-    background: #33cb33 !important; 
+    background: #33cb33 !important;
+    color: white !important;
 }
 
 .navbar-toggler{
