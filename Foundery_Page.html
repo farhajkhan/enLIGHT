@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" type="text/css" href="enLIGHT.css">
+      <link rel="icon" href="https://enlightme.ca/wp-content/uploads/2019/08/enLIGHTLOGO.png">
+      
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+
+      <title>enLIGHT</title>
+      
+      <script>
+        var example = ['LEADERS', 'FOUNDERS', 'TRAILBLAZERS', 'VISIONARIES', 'DISRUPTORS', 'ROLE MODELS'];
+        textSequence(0);
+        function textSequence(i) {
+            if (example.length > i) {
+                setTimeout(function() {
+                    document.getElementById("sequence").innerHTML = example[i];
+                    textSequence(++i);
+                }, 1000); // 1 second (in milliseconds)
+            } else if (example.length == i) { // Loop
+                textSequence(0);
+            }
+        }
+      </script>
+
+
+    </head>
+    
+    
+    <body style="overflow-x: hidden;">
+        <nav class="navbar navbar-default navbar-expand-sm fixed-top bg-dark navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif" onmouseenter="this.src ='https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif';" width="200px;">
+        
+            </a>
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="custom-toggler navbar-toggler-icon">   
+              </span>
+          </button>
+            
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+<!--              <li class="nav-item active">-->
+                <li class="nav-item">
+                    <a class="nav-link" href="timeline_carousel.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="foundery.html">Foundery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item" style="padding-left: 20px; margin-top:2px;">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf-a4dpK89T3-G3K67SZ-cgOabWj3bqQBVS0iCRacPIPU9QA/viewform"><button type="button" class="btn btn-outline-light">Apply Now</button></a>
+               </li>
+            </ul>
+          </div>
+        </nav>
+      
+        <header>
+            <img class="founderyBanner" src="Foundery.jpg" width="1500px;">
+            <div class="container bannerContent">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <img class="founderyLogo" src="founderylogo.png" width="800px;">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h1 class="founderySlogan">An Incubator Turning Students into Founders</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="founderyPageContent">
+        
+        </div>
+      <div class="container-fluid mb-5 whatWeOffer">
+
+          <div class="row">
+              <div class="whatWeDo mb-0 d-flex justify-content-center col-12">
+                  <h1 class="firstTitle" style="text-align: center">How It Works</h1>
+              </div>
+          </div>
+          
+          <div class="mt-2 row d-flex justify-content-center">
+              <div class="mb-0 col-6">
+                  <h1 class="contentText" style="text-align: center">A cohort of hand-picked intercollegiate university students will go through a 6-month incubation program targeted at giving them the skills, knowledge, network, mindset, and experience they need to become successful entrepreneurs. </h1>
+              </div>
+          </div>
+      </div>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="offeringCards whatWeDoBoxes">
+            <div class="row">
+                <div class="mb-4 col-12 col-md-2 mr-4">
+                    <div class="card offerCards" style="width: 200px">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-12 d-flex justify-content-center">
+                                  <i class="fas fa-user-tie fa-4x" style="color: #33cb33;"></i>
+                              </div>
+                          </div>
+                          <div class="row mt-3 ">
+                              <div class="col-12 d-flex justify-content-center">
+                                  <h5 class="offer-title"><strong>Speakers</strong></h5>
+                              </div>
+                          </div>
+
+  
+                      </div>
+                    </div>
+                </div>
+                
+            <div class="mb-4 col-12 col-md-2 ml-0 mr-4">
+                    <div class="card offerCards" style="width: 200px">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-12 d-flex justify-content-center">
+                                  <i class="fas fa-door-open fa-4x" style="color: #33cb33;"></i>
+                              </div>
+                          </div>
+                          <div class="row mt-3 ">
+                              <div class="col-12 d-flex justify-content-center">
+                                  <h5 class="offer-title"><strong>Office Tours</strong></h5>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+            </div>
+
+
+                
+            <div class="mb-4 col-12 col-md-2 ml-0 mr-4">
+                    <div class="card offerCards" style="width: 200px">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-12 d-flex justify-content-center">
+                                 <i class="fas fa-laptop fa-4x" style="color: #33cb33;"></i>
+                              </div>
+                          </div>
+                          <div class="row mt-3 ">
+                              <div class="col-12 d-flex justify-content-center">
+                                  <h5 class="offer-title"><strong>Online Modules</strong></h5>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+            </div>
+
+
+            
+            <div class="mb-4 col-12 col-md-2 ml-0 mr-4">
+                    <div class="card offerCards" style="width: 200px">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-12 d-flex justify-content-center">
+                                <i class="fas fa-rocket fa-4x" style="color: #33cb33;"></i>
+                              </div>
+                          </div>
+                          <div class="row mt-3 ">
+                              <div class="col-12 d-flex justify-content-center">
+                                  <h5 class="offer-title"><strong>Startup Growth</strong></h5>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+            </div>
+
+
+        
+            <div class="mb-4 col-12 col-md-2 ml-0 mr-4">
+                    <div class="card offerCards" style="width: 200px">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-12 d-flex justify-content-center">
+                                <i class="fas fa-project-diagram fa-4x" style="color: #33cb33;"></i>
+                              </div>
+                          </div>
+                          <div class="row mt-3 ">
+                              <div class="col-12 d-flex justify-content-center">
+                                  <h5 class="offer-title"><strong>Network</strong></h5>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+            </div>
+            </div>
+
+      </div>
+      </div>
+        
+      <div class="carousel-logooo d-none d-md-block">
+    <div class="contexual">
+        
+<div class="logozz d-flex justify-content-start">
+<div class="container text-center logo-carousel">
+    <div class="row" style="width: 800px;">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-2">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="https://enlightme.ca/wp-content/uploads/2019/08/MARS.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="top-hat-logo.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="ada-logo.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="pivotal-logo.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="gcsc.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="Ripple.jpg">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body">
+                        <img class="img-fluid" src="Knockri-logo.jpg">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>            
+
+    </div>
+    <div class="svgzzz" style="max-width: 100%; overflow: hidden;">
+<div style="height: 350px; width: 270%; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-11.00,-3.45 C128.38,147.53 334.36,-86.34 502.54,38.97 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #58dc58;"></path></svg></div>
+<div style="height: 150px; width: 250%; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #58dc58;"></path></svg></div>     
+    </div>
+        </div>
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-2 d-flex justify-content-center missionTitle">
+                    <h1>Do You Have What It Takes?</h1>
+                </div>
+            </div>
+                <div class="row d-flex justify-content-center" style="text-align: center; ">
+                    <div class="col-10 col-md-6" >
+                    <p>We’re looking for students that aren’t afraid to challenge the status quo, take action, and want to make an impact. Building out a business already or have startup ideas? Get 1-1 support to set your own milestones and goals. This program is for students who are serious about entrepreneurship and want to make their mark in the Canadian and global startup space. <br><br>Sound like you? enLIGHT is all about accessible education, so this program is absolutely free with no strings attached. Applications are open to students from any post-secondary institution across Ontario, any year and any faculty! This program is made by students, for students and is tailored for the busy schedules and lives of student founders. 
+
+                    </p>
+                    </div>
+
+            </div>  
+
+        </div>
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center missionTitle mt-5">
+                    <h1>Frequently Asked Questions</h1>
+                </div>
+            </div>
+
+
+        </div>
+        
+<div class="container py-3">
+    <div class="row">
+        <div class="col-10 mx-auto">
+            <div class="accordion" id="faqExample">
+                <div class="card">
+                    <div class="card-header p-2" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link questionText" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What Does a Typical Week Look Like?
+                            </button>
+                          </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqExample">
+                        <div class="card-body">
+                    <div class="col-12 mt-3">
+                        <ul>
+                            <li>Online weekly modules of educational content (videos, articles, reports, slide decks, and more)</li>
+                            <li>Online webinar and guest speakers</li>
+                            <li>Startup progress call with the cohort</li>
+                            <li>Monthly in-person meetups with speakers, workshops, office tours, and cohort networking</li>
+                            <li>Access to free resources and libraries</li>
+                            <li>Access to all enLIGHT events throughout the year </li>
+                        </ul>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header p-2" id="headingTwo">
+                        <h5 class="mb-0">
+                        <button class="btn btn-link collapsed questionText" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          What Will I Learn?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqExample">
+                        <div class="card-body">
+                    <div class="col-12 col-md-6 mt-3">
+                        <ul>
+                            <li>How to build and manage startup</li>
+                            <li>How to manage a team</li>
+                            <li>Ecosystem and networking</li>
+                            <li>Technology and trends</li>
+                            <li>Founder skillset</li>
+                        </ul>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header p-2" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed questionText" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What Is The Timeline?
+                            </button>
+                          </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqExample">
+                        <div class="card-body">
+                    <div class="col-12 mt-3">
+                        <ul>
+                            <li><strong>September 20th:</strong> Applications Due</li>
+                            <li><strong>September 23rd:</strong> Interviews Begin</li>
+                            <li><strong>October 4 & 5:</strong> Crash Course</li>
+                            <li><strong>November 15:</strong> November Monthly Meetup & Fall Meetup</li>
+                            <li><strong>January 10:</strong> January Monthly Meetup</li>
+                            <li><strong>February 7:</strong> February Monthly Meetup</li>
+                            <li><strong>March 10:</strong> March Monthly Meetup & DEMOday</li>
+                            <li><strong>March 27:</strong> Final Pitch Day</li>
+                        </ul>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--/row-->
+</div>
+        
+        
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center missionTitle mt-5">
+                    <h1>Apply Today</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center" style="text-align: center; ">
+                    <div class="col-10 col-md-6" >
+                    <p>First round applications are due <strong>September 20th</strong>. Following applications, you will be contacted for interviews throughout the week of September 23-27th. 
+                    </p>
+                    </div>
+            </div> 
+            
+                <div class="row d-flex justify-content-center">
+                         <button type="button" class="btn btn-outline-success">Apply Now</button>
+                </div>
+        </div>
+        
+        
+<!--container-->
+ 
+
+
+        
+        
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 mt-0">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3">
+
+        <!-- Content -->
+          <div class="row">
+              <div class="col-2">
+                  <h5 class="text-uppercase">Program</h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-7">
+                  <ul class="list-unstyled">
+                      <li>
+                          <a class="footLinks" href="#!">The Foundery</a>
+                      </li>
+                      
+                      <li>
+                          <a class="footLinks" href="#!">Accelerator</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+        
+      <div class="col-md-3 enLIGHTFooter">
+        <!-- Content -->
+          <div class="row">
+              <div class="col-12">
+                  <h5 class="text-uppercase">enLIGHT</h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-7">
+                  <ul class="list-unstyled">
+                      <li>
+                          <a class="footLinks" href="#!">About Us</a>
+                      </li>
+                      
+                      <li>
+                          <a class="footLinks" href="#!">Blog</a>
+                      </li>
+                      
+                      <li>
+                          <a class="footLinks" href="#!">Get Involved</a>
+                      </li>
+                      
+                      <li>
+                          <a class="footLinks" href="#!">Contact Us</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+        
+    <div class="col-3">
+        <h5 class="text-uppercase">Follow Us</h5>
+        <div id="socialLinks">
+        <ul class="list-unstyled" id="socialLinks">
+            <li>
+                <a href="https://www.facebook.com/enLIGHTCanada/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </li>
+            
+            <li>
+                <a href="https://www.linkedin.com/company/enlight-canada/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            </li>
+            
+            <li>
+                <a href="https://www.instagram.com/enlightcanada/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+        
+    <div class="col-3">
+        <h5 class="text-uppercase">Contact Us</h5>
+        <ul class="list-unstyled">
+            <li>
+                <a class="footLinks" href="#"><i class="far fa-envelope"></i> hello@enlightme.ca</a>
+            </li>
+            
+            <li>
+                <a class="footLinks" href="#"><i class="fas fa-map-marker-alt"></i> Toronto, Canada</a>
+            </li>
+
+        </ul>
+        </div>
+        
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright enNOVATION Group
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+        
+
+   <!-- Optional JavaScript -->
+      
+<script>
+    $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.round( now * 10 ) / 10));
+            }
+        });
+    });
+        
+        </script>
+        
+    <script>
+    $('.count2').each(function () {
+        $(this).prop('Counter',1000).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.floor(now)));
+            }
+        });
+    });
+        
+   function commaSeparateNumber(val) {
+      while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+      }
+      return val;
+    } 
+    </script>
+        
+    <script>
+    $('.count3').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.floor(now)));
+            }
+        });
+    });
+        
+   function commaSeparateNumber(val) {
+      while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+      }
+      return val;
+    } 
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script>
+         $(window).scroll(function(){
+         $('nav').toggleClass('scrolled', $(this).scrollTop() > 600);
+         });
+
+        </script>
+        
+        <script>
+            $(window).scroll(function(){
+                $('.logo').css({width: $(this).scrollTop() > 600? "150px":"200px"});
+            });
+        </script>
+        
+        <script>
+        $('#recipeCarousel').carousel({
+  interval: 1000
+})
+
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 6;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
+        if (!next.length) {
+        	next = $(this).siblings(':first');
+      	}
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }
+});
+
+        </script>
+        
+  </body>
+</html>

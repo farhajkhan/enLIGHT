@@ -1,3 +1,17 @@
+.aboutUsPageContent{
+    margin-bottom: 100px;
+}
+
+.nav-link{
+    font-size: 20px !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+    
+}
+
 .movingNathan{
     width: 269px;
     height:269px;
