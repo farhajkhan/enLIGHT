@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" type="text/css" href="enLIGHT.css">
+      <link rel="icon" href="https://enlightme.ca/wp-content/uploads/2019/08/enLIGHTLOGO.png">
+      
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+
+      <title>enLIGHT</title>
+      
+      <script>
+        var example = ['LEADERS', 'FOUNDERS', 'TRAILBLAZERS', 'VISIONARIES', 'DISRUPTORS', 'ROLE MODELS'];
+        textSequence(0);
+        function textSequence(i) {
+            if (example.length > i) {
+                setTimeout(function() {
+                    document.getElementById("sequence").innerHTML = example[i];
+                    textSequence(++i);
+                }, 1000); // 1 second (in milliseconds)
+            } else if (example.length == i) { // Loop
+                textSequence(0);
+            }
+        }
+      </script>
+
+
+    </head>
+    
+    
+    <body style="overflow-x: hidden;">
+        <nav class="navbar navbar-default navbar-expand-sm fixed-top bg-dark navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif" onmouseenter="this.src ='https://enlightme.ca/wp-content/uploads/2019/08/ani-logo_2.gif';" width="200px;">
+        
+            </a>
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="custom-toggler navbar-toggler-icon">   
+              </span>
+          </button>
+            
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+<!--              <li class="nav-item active">-->
+                <li class="nav-item">
+                    <a class="nav-link" href="timeline_carousel.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Foundery_Page.html">Foundery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item" style="padding-left: 20px; margin-top:2px;">
+                    <a href="https://forms.gle/PhT1stUAetyBgvww9"><button type="button" class="btn btn-outline-light">Apply Now</button></a>
+               </li>
+            </ul>
+          </div>
+        </nav>
+      
+        <header>
+            <img class="founderyBanner" src="Foundery.jpg" width="1500px;">
+            <div class="container bannerContent">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h1 class="contactSlogan">Working on something big?</h1>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h1 class="founderySlogan">Get In Touch</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+<div class="container contactForm">
+          <div class="row">
+              <div class="col-12 d-flex justify-content-center">
+                  <h1 class="AboutUs">Contact Us</h1>
+              </div>
+          </div>
+          
+          <div class="row">
+              <div class="col-12 d-flex justify-content-center">
+              <p class="contactText">Want to partner with us? Wondering what we're up to? We're always happy to chat.<br>
+                  Fill out the form below and we will get back to you as soon as possible.
+              </p>
+              </div>
+          </div>
+   
+          <div class="container mb-5">
+              <div class="row">
+              <div class="col-8 contactInput">
+                  
+                  <form action="https://formspree.io/farhaj_khan@outlook.com" method="POST">
+                      <div class="form-row">
+                          <div class="form-group col-md-12">
+                              <label for="inputName">Name</label>
+                              <input type="text" name="name" class="form-control" id="inputName" placeholder="Name">
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          <label for="inputAddress">Email</label>
+                          <input type="email" class="form-control" name="_replyto" id="inputEmail" placeholder="john@email.ca">
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <input type="text" name="text" class="form-control"  id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                      </div>
+
+                      <button type="submit" value="Send" class="btn btn-success">Send</button>
+                  </form>
+                  </div>
+              </div>
+          </div>
+          
+          
+<!--
+          <div class="row">
+              <div class="col-2">
+              </div>
+              <div class="col-8 d-flex justify-content-center mt-3">
+                  <input type="text" class="form-control" placeholder="Name">
+              </div>      
+          </div>
+          
+          <div class="row">
+              <div class="col-2">
+              </div>
+              <div class="col-8 d-flex justify-content-center mt-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>      
+          </div>
+-->
+      </div>
+           
+        
+      
+       
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+<!--container-->
+ 
+
+
+        
+        
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 mt-0">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row heightRow">
+
+      <!-- Grid column -->
+      <div class="col-4 col-md-3 progamFooter">
+
+        <!-- Content -->
+          <div class="row">
+              <div class="col-6 ml-3 ml-md-0 col-md-2">
+                  <h5 class="text-uppercase">Program</h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-7">
+                  <ul class="list-unstyled">
+                      <li>
+                          <a class="footLinks ml-3 ml-md-0" href="Foundery_Page.html">The Foundery</a>
+                      </li>
+                      
+                      <li>
+                          <a class="footLinks" href="accelerator.html">Accelerator</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+        
+      <div class="col-4 col-md-3 enLIGHTFooter">
+        <!-- Content -->
+          <div class="row">
+              <div class="col-12">
+                  <h5 class="text-uppercase enlightFooterTitle">enLIGHT</h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-7">
+                  <ul class="list-unstyled footerList">
+                      <li>
+                          <a class="footLinks" href="aboutUs.html">About Us</a>
+                      </li>
+                      
+                      <li>
+                          <a class="footLinks" href="https://www.facebook.com/pg/enLIGHTCanada/">Get Involved</a>
+                      </li>
+                      
+                      <li>
+                          <a class="footLinks" href="ContactUs.html">Contact Us</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+        
+    <div class="col-12 col-md-3 socialMediaFooter">
+        <h5 class="text-uppercase">Follow Us</h5>
+        <div id="socialLinks">
+        <ul class="list-unstyled" id="socialLinks">
+            <li>
+                <a href="https://www.facebook.com/enLIGHTCanada/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            </li>
+            
+            <li>
+                <a href="https://www.linkedin.com/company/enlight-canada/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            </li>
+            
+            <li>
+                <a href="https://www.instagram.com/enlightcanada/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+        
+    <div class="col-12 col-md-3 contactUsFooter">
+        <h5 class="text-uppercase">Contact Us</h5>
+        <ul class="list-unstyled contactUsList">
+            <li>
+                <a class="footLinks" href="ContactUs.html"><i class="far fa-envelope"></i> hello@enlightme.ca</a>
+            </li>
+            
+            <li>
+                <a class="footLinks" href="#"><i class="fas fa-map-marker-alt"></i> Toronto, Canada</a>
+            </li>
+
+        </ul>
+        </div>
+        
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright enNOVATION Group
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+        
+
+   <!-- Optional JavaScript -->
+      
+<script>
+    $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.round( now * 10 ) / 10));
+            }
+        });
+    });
+        
+        </script>
+        
+    <script>
+    $('.count2').each(function () {
+        $(this).prop('Counter',1000).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.floor(now)));
+            }
+        });
+    });
+        
+   function commaSeparateNumber(val) {
+      while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+      }
+      return val;
+    } 
+    </script>
+        
+    <script>
+    $('.count3').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(commaSeparateNumber(Math.floor(now)));
+            }
+        });
+    });
+        
+   function commaSeparateNumber(val) {
+      while (/(\d+)(\d{3})/.test(val.toString())) {
+        val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+      }
+      return val;
+    } 
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script>
+         $(window).scroll(function(){
+         $('nav').toggleClass('scrolled', $(this).scrollTop() > 600);
+         });
+        </script>
+        
+        <script>
+            $(window).scroll(function(){
+                $('.logo').css({width: $(this).scrollTop() > 600? "150px":"200px"});
+            });
+        </script>
+        
+        <script>
+        $('#recipeCarousel').carousel({
+  interval: 1000
+})
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 6;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
+        if (!next.length) {
+        	next = $(this).siblings(':first');
+      	}
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }
+});
+        </script>
+        
+  </body>
+</html>
