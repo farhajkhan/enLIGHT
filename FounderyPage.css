@@ -1,3 +1,45 @@
+#collapseThree{
+    background-color: #f1f1f1;
+}
+
+#collapseTwo{
+    background-color: #f1f1f1;
+}
+
+
+#collapseOne{
+    background-color: #f1f1f1;
+}
+
+.FAQTitle{
+    font-weight: 900 !important;
+    font-size: 45px;
+}
+
+#headingThree{
+    background-color: #5fd55f;
+}
+
+#headingTwo{
+    background-color: #5fd55f;
+}
+
+#headingOne{
+    background-color: #5fd55f;
+}
+
+.FAQSection{
+    background-color: #f1f1f1;
+}
+
+.whatItTakes{
+    margin-top: 40px;
+}
+
+.founderyLogo{
+    margin-top: -150px !important;
+}
+
 .founderyPageContent{
     margin-top: 200px !important;
 }
@@ -143,7 +185,7 @@
 }
 
 .questionText{
-    color: #33cb33 !important; 
+    color: white !important; 
 }
 
 .offer-title{
@@ -165,7 +207,7 @@
 }
 
 .founderySlogan{
-    margin-top: 130px;
+    margin-top: 50px;
     font-family: Roboto;
     font-size: 45px;
     color: grey;
@@ -485,12 +527,12 @@ footer{
 
 .btn-outline-success{
     border-color: #33cb33 !important;
-    color: #33cb33;
+    color: #33cb33 !important;
 }
 
-
 .btn-outline-success:hover{
-    background-color: #33cb33;
+    background-color: #33cb33 !important;
+    color: white !important;
 }
 
 .missionTitle{
