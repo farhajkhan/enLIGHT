@@ -197,8 +197,7 @@
 
 .bannerContent{
     position: relative;
-    top: 25vh;
-    
+    top: 25vh;  
 }
 
 .founderyBanner{
@@ -211,7 +210,7 @@
 }
 
 .jayZ{
-    font-size: 14px !important;
+    font-size: 24px !important;
     font-weight: 200;
 }
 
@@ -389,14 +388,14 @@ header{
     color: white;
 }
 
-.btn-outline-danger:hover{
+.btn-outline-success:hover{
     color: white;
     border-color: #58dc58;
     background-color: #58dc58;
 }
 
-.btn-outline-danger{
-    color: white;
+.btn-outline-success.partnerButton{
+    color: white !important;
     border: 2px solid #58dc58;
 }
 
